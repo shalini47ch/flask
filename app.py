@@ -1,4 +1,4 @@
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request,url_for
 #render template inorder to return the entire html page
 import pickle #for loading the model
 import numpy as np #to convert the strings in the dataset to arrays
